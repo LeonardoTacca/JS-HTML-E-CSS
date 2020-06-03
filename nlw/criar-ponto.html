@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criar um ponto de coleta</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu:wght@700&display=swap" rel="stylesheet">    
+    <link rel="stylesheet" href="/styles/main.css">
+    <link rel="stylesheet" href="/styles/criar-ponto.css">
+    <link rel="stylesheet" href="/styles/Adaptadordetela.css">
+    <script src="/scripts/criar-ponto.js"></script>
+    
+</head>
+<body>
+    <div id="page-criar-ponto">
+            <header>
+                <img src="/assets/logo.svg" alt="Logomarca">
+                <a href="http://www.google.com.br">
+                    <span></span>
+                    Voltar para a paginia inicial</a>
+            </header>
+<form action="">
+    <h1>Cadastro do ponto de coleta</h1>
+    <fieldset>
+        <legend>
+            <h2>Dados de entidade </h2>
+        </legend>
+
+
+        <div class="field">
+            <Label for="">Nome da Empresa</Label> 
+            <input type='text' name="name">
+
+        </div>
+        
+        <div class="field-group">
+            <div class="field">
+            <Label for="address">Endereço</Label>
+            <input type='text' name="Address">
+            </div>
+        <div class="field">
+                <Label for="address">numero/complemento</Label>
+                <input type='text' name="Address2">
+          </div>
+        </div>
+        <div class="field-group">
+        <div class="field">
+            <Label for="state">
+                Estado
+            </Label>
+            <select name="uf" id="">
+                <option value="">
+                    Selecione o Estado
+                </option>
+    
+            </select>
+        </div>
+         
+        <div class="field">
+            <Label for="City">Cidade</Label>
+            <select name="city" disabled >
+                <option value="">Selecione a cidade</option>
+            </select>
+        </div>
+        </div>
+    </fieldset>
+
+    <fieldset>
+        <legend>
+
+        </legend>
+    </fieldset>
+
+    <button type="submit">Cadastar</button>
+</form>
+            
+
+ </div>
+    <script src="/scripts/criar-ponto.js"></script>
+  
+</body>
+</html>
